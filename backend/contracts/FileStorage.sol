@@ -39,3 +39,5 @@ contract FileStorage {
         return (emailHashes, ipfsHashes, timestamps);
     }
 }
+
+

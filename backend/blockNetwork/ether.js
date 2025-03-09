@@ -2,7 +2,7 @@ require('dotenv').config()
 const { ethers } = require('ethers')
 
 const Alchemy = process.env.ALCHEMY_API_KEY;
-const network = 'homestead';
+const network = 'matic';
 const provider = new ethers.providers.AlchemyProvider(network, Alchemy);
 
 async function getLatestBlockNumber() {

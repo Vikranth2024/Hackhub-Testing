@@ -32,6 +32,7 @@ const FormData = require("form-data");
  * @param {object} file - File object from multer
  * @returns {string} IPFS URI
  */
+
 const uploadToIPFS = async (file) => {
   const apiKey = process.env.FILEBASE_ACCESS_KEY;
   const secretKey = process.env.FILEBASE_SECRET_KEY;
